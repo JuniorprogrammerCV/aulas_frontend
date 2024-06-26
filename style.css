@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#pgnfilm{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+}
+
+
+#filmes{
+    padding: 20px 200px 20px 200px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#filmes img{
+    width: 100px;
+    height: 80px;
+    font-size: smaller;
+}
+
+.film_container{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    height: 200px;
+}
+
+.film_container p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.film_container button{
+    margin: 10px;
+    padding: 3px;
+}
+
+input{
+    margin-bottom: 5px;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+#marca{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pesquisas{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+}
+
+#pesquisas input{
+   width: 100%; 
+}
+
+#pesquisas button{
+    padding: 5px;
+    height: 25px;
+}
+
+.film_list{
+    display: flex;
+}
